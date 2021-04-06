@@ -1,0 +1,71 @@
+body{
+
+text-align: center;
+
+
+}
+
+
+#principal{
+display: block;
+width: 500px;
+margin: 50px auto;
+padding:15px;
+text-align: center;
+border: 1px solid #999999;
+background: #dddddd;
+
+-moz-border-radius:20px ;
+-webkit-border-radius:20px;
+border-radius: 20px;
+
+box-shadow: #555555 5px 5px 10px inset;
+background: -webkit-linear-gradient(top,#ffffff,#006699);
+/*background: -moz-linear-gradient(top,#ffffff,#006699)*/
+/*background: -moz-radial-gradient(top,#ffffff,#006699);*/
+background: rgba (0, 0, 0, 0.1);/*transparencia*/
+
+/*-moz-transform: scale(1,-1);
+-webkit-transform: scale(1,-1);para ampliar*/
+
+/*-moz-transform:rotate(30deg);
+-webkit-transform: rotate(30deg);para rotar*/ 
+/*
+-moz-transform: skew(10deg);
+-moz-transform: skew(20deg);*/
+
+/*
+-webkit-transform: skewX(10deg);
+-webkit-transform: skewY(20deg);*/
+
+/*
+-moz-transform:translate(20px);
+-webkit-transform:translate(20px) ;*/
+
+
+/*-moz-transform:translatey(20px)rotate(5deg)scale(.9);
+-webkit-transform:translate(20px)rotate(5deg)scale(.9);*/
+
+-moz-transition: -moz-transform 1s ease-in-out 10s;
+-webkit-transition: -webkit-transform 1s ease-in-out 10s;
+
+
+
+
+
+}
+
+#titulo{
+
+font:bold 36px verdana,sans-serif;
+text-shadow: rgb(226, 226, 238) 3px 3px 5px;
+font-family: "roboto" ;
+
+}
+
+@font-face{
+
+font-family: "fuente2"; src: "";
+
+
+}
